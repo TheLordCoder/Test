@@ -10,6 +10,13 @@ public class App {
         list.add("banana");
         list.add("banana");
         list.add("strawbery");
-
+        
+        for(String value: list) {
+        	System.out.println(value);
+        }
+        
+        Person person = new Person("John", 5);
+        System.out.println(person.toString());
+        
     }
 }
