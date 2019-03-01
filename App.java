@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class App {
@@ -6,6 +7,7 @@ public class App {
         List<String> list = new ArrayList<>();
         list.add("apple");
         list.add("orange");
+        list.add("banana");
         list.add("banana");
         list.add("strawbery");
 
